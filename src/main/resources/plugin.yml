@@ -1,0 +1,5 @@
+name: ModeratorChatReport
+version: '${project.version}'
+main: io.github.thatsmusic99.moderatorchatreport.ModeratorChatReport
+api-version: 1.19
+description: Only allows users with specific permissions to chat report server players.
