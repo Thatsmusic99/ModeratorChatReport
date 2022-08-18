@@ -7,7 +7,7 @@ public final class ModeratorChatReport extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-
+        getServer().getPluginManager().registerEvents(new ChatListener(), this);
     }
 
     @Override
